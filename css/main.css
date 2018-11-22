@@ -1,0 +1,245 @@
+
+.log{float: right; margin-top: 10px}
+.carousel-inner .item img{width:100%;height: 500px}
+.search{
+	position: absolute;
+	width:50%;
+    top: 300px;
+    left: 27%;
+    
+}
+a:hover {
+    text-decoration: none;
+}
+.search2{
+    position: absolute;
+    width:50%;
+    top: 500px;
+    left: 27%;
+    z-index: 100;
+    
+}
+.search .o-dl {
+    background: #fff;
+    padding: 15px;
+    width: 100px;
+    height: 30px;
+    margin: 0px auto;
+    display: table;
+    text-align: center;
+    border: 1px solid #ececec;
+    cursor: pointer;
+    float: left;
+    margin: 10px 5px 5px 10px;
+}
+.search .o-dl img{
+	width:100%;
+}
+
+
+/*style trangchu.php*/
+.tieu-de-top {
+    margin: 10px 0;
+    padding: 10px;
+    text-transform: uppercase;
+    text-indent: 10px;
+    font-size: 1.5em;
+    color: #333;
+    text-shadow: 0px 0px 3px white;
+}
+.all-tour {
+
+}
+.box-tour-dl {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.box-tour-dl .tour-img {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.box-tour-dl .tour-img img {
+    width: 100%;
+    -webkit-transform: rotate(15deg) scale(1.4);
+    -webkit-transition: .3s ease-in-out;
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+}
+.box-tour-dl .tour-img:hover img {
+   /* transform: scale(1.2,1.2);
+    margin-bottom: 0px;*/
+    /* transform: rotate(-20deg);*/
+    transform: rotate(13deg) scale(1.4);
+    transition: .3s ease-in-out;
+}
+.box-tour-dl .tour-img:hover .xem-chi-tiet {
+    opacity: 1;
+}
+ .tour-img .xem-chi-tiet {
+    background: #ffffff9e;
+    border:  1px solid #fc6600;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 900;
+    text-align: center;
+    line-height: 70px;
+    opacity: 0;
+    box-shadow: 0px 0px 30px white;
+}
+
+ .tour-img .xem-chi-tiet a {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fc6600;
+    text-shadow: 0px 0px 1px white;
+}
+.tour-content h4 {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    font-size: 1em;
+
+}
+.tour-content h4 a{
+    text-transform: uppercase;
+        color: #fc6600;
+}
+.tour-content h4 a:hover {
+    text-decoration: none;
+}
+.tour-content-left p,.tour-content-right p {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0;
+    padding-top: 5px;
+    margin: 0px;
+}
+.tour-content-left p span , .tour-content-right p span {
+    font-style: italic;
+    font-weight: normal;
+}
+.tour-content-bot {
+    margin-top: 5px;
+}
+.tour-content-bot div h3 {
+    padding: 0;
+    margin: 0;
+}
+.tour-content-bot-btn {
+    box-shadow: 0px 0px 3px #fc6600;
+    color: #fc6600;
+    font-weight: bold;
+}
+.tour-content-bot-btn:hover {
+    background: #fc6600;
+    color: white;
+}
+hr.hr-end-tour {
+    width: 100%;
+    border: 1px solid #fc6600;
+}
+
+/*Css phần aside*/
+.container-seach{
+    text-align: center; 
+    color: white;
+
+}
+.container-seach h1 {
+    text-shadow: 0 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container-seach p{
+    max-width: 100%;
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+}
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.email-box i {
+    background: #2f3542;
+    width: 40px;
+    line-height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0 10px;
+}
+.tbox, .btn-seach {
+    border: none;
+    outline: none;
+}
+input.tbox {
+    width: 0px;
+    transition: 0.6s;
+    margin: 0;
+    padding: 20px 0px;
+}
+.email-box:hover > .tbox,.tbox:focus {
+    width: 150px;
+    padding: 20px 10px;
+}
+.btn-seach {
+    background: #2f3542;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn-seach:hover {
+    color: white;
+}
+
+/*css phần panel-khu-vuc-tour*/
+.panel-khu-vuc-tour > .panel-body , ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*css phân sliderbar*/
+.carousel-inner .item {
+    position: relative;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 20%;
+    padding: 0;
+    margin: 0;
+}
+.carousel-caption h1 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 0px 0px 5px black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-outline  {
+    background: white;
+    width: 200px;
+    height: 50px;
+    font-size: 1em;
+    color: red;
+    border: 1px solid red;
+}
+.btn-outline:hover ,.btn-outline:focus ,.btn-outline:active  {
+    color: white;
+    background: red;
+}
