@@ -51,6 +51,7 @@
             <li><a href="/duan1/admin/quan_ly_kvt/">Khu vực Tour</a></li>
             <li><a href="/duan1/admin/quan_ly_tour">Tour</a></li>
             <li><a href="/duan1/admin/quan_ly_ks">Khách sạn</a></li>
+            <li><a href="/duan1/admin/quan_ly_khach_hang">Khách hàng</a></li>
             <li><a href="/duan1/admin/quan_ly_bl">Bình luận</a></li>
             <li><a href="/duan1/admin/quan_ly_thong_ke">Thống kê</a></li>
           </ul>
